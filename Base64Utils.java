@@ -13,4 +13,6 @@ public class Base64Utils {
 	public static String decode(String msg){
 		return new String(Base64.getDecoder().decode(msg));
 	}
+
+
 }
